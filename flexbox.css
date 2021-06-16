@@ -1,0 +1,23 @@
+.flexbox-container{
+
+}
+.flexbox-item{
+    width:200px;
+    margin:10px;
+    border: 3px solid #333;
+    
+    
+}
+.flexbox-item-1 {
+    min-height: 100px;
+  background-color: green;
+
+}
+.flexbox-item-2 {
+    min-height: 100px;
+    background-color: yellow;
+
+}.flexbox-item-3 {
+    min-height: 100px;
+    background-color:purple;
+}

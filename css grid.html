@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: blue;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color:gray ;
+  border: 15px solid black;
+  text-align: left;
+  font-size: 30px;
+}   
+</style>    
+</head>
+<body>
+
+<h1>Grid Container</h1>
+
+<p>A Grid Container consists of grid items arranged in columns and rows</p>
+
+<div class="grid-container">
+  <div>one</div>
+  <div>two</div>
+  <div>three</div>  
+  <div>four</div>
+  <div>five</div>
+  <div>six</div>
+  <div>seven</div>
+  <div>eight</div>
+</div>
+
+<p>Direct child elements(s) of the grid container automatically becomes grid items.</p>
+
+</body>
